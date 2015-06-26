@@ -1,0 +1,357 @@
+
+a:link {
+	color: #00FFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00FFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+/*
+a:active {
+	color: #33CC33
+	text-decoration: underline;
+}*/
+
+
+p {
+	color: #525252;
+	text-align: justify;
+	font-size: 12px;
+	font-family: "Geneva", sans-serif;
+	word-break: break-all;
+}
+
+h1 {
+	color: ghostwhite;
+	text-align: left;
+	text-indent: 25px;
+	font-size: 30px;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-variant: small-caps;
+}
+
+h2 {
+	color: ghostwhite;
+	text-align: right;
+	font-size: 16px;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+
+h3 {
+	color: #CC6600;
+	text-align: center;
+	font-size: 16px;
+	font-family:"Geneva", sans-serif;
+	font-style: bold;
+}
+
+h4 {
+	color: #525252;
+	text-align: left;
+	font-size: 14px;
+	font-family:"Geneva", sans-serif;
+	font-style: italic;
+	/*word-break: break-all;*/
+	padding: 0px 25px 0px 25px;
+}
+
+h4.textS {
+	display: none;
+	width: 180px;
+	margin: 10px 0px 10px 0px;
+}
+
+
+h5 {
+	color: #525252;
+	font-size: 18px;
+	font-family:"Geneva", sans-serif;
+	font-style: bold;
+}
+
+
+
+body {
+	width:900px;
+	background-color: ghostwhite;
+}
+
+table {
+	width: 100%;
+	vertical-align: top;
+	padding: 15px;
+}
+
+th, td {
+    	padding: 0px 25px 0px 25px;
+	margin-left: auto;
+    	margin-right: auto;
+}
+
+.buttonS {
+	background-color: #e7e7e7;
+	margin: 10px 0px 10px 35px;
+	padding: 5px;
+    	width: 60%;
+	
+	color: #CC6600;
+	text-align: center;
+	font-size: 16px;
+	font-family:"Geneva", sans-serif;
+	
+	border-style: solid;
+	border-width: thin;
+	border-color: #ccc;
+	border-radius: 25px;
+	
+	box-shadow: 3px 3px 5px grey;
+
+}
+
+.buttonS:hover {
+	opacity: 0.7;
+}
+
+
+
+
+@keyframes trans {
+	from {background-color: #DB944D;}
+	to {background-color: #525252;}
+}
+
+
+
+#grad {
+	background: -webkit-linear-gradient(left top, #D17519 , ghostwhite); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #D17519, ghostwhite); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #D17519, ghostwhite); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #D17519 , ghostwhite); /* Standard syntax */
+} 
+
+
+
+#image-style {
+	background-color: lightgray;
+	border: 2px solid #CC6600;
+	border-radius: 100%;
+	padding: 5px;
+}
+
+#image-style:hover {
+	opacity: 0.7;
+}
+
+#image-style2 {
+	background-color: lightgray;
+	border: 2px solid #CC6600;
+	padding: 5px;
+}
+
+
+
+#header {
+	background-image: url("./images/1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #CC6600;
+	height: 596px;
+	padding:5px;
+
+}
+
+#nav {
+	/*background-color: #DB944D;*/
+	background-color: transparent;
+	padding: 0;
+/*	padding:0px 5px 0px 5px;*/
+	/*margin-bottom: 20px;*/
+/*	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-width: thin;
+	border-color: #525252; */
+	
+	position: relative;
+	top: -596px;
+	right: 25px;		
+}
+
+#nav ul {
+	list-style: none;
+	width: auto;
+	height: auto;
+/*	margin: 0;
+	padding: 0;*/
+}
+
+#nav ul li {
+	display: inline;
+	padding: 10px; 
+	border-style: solid;
+	border-width: thin;
+	border-color: transparent;
+}
+
+#nav ul li.sub {
+	display: inline-block;
+	padding: 10px; 
+	border-style: solid;
+	border-width: thin;
+	border-color: transparent;
+
+	/*position: relative;*/
+}
+
+#nav ul li:hover {
+	opacity: 0.7;
+	border-color: #00FFFF;
+}
+
+/*#nav ul li.sub:hover {
+	opacity: 0.7;
+	border-color: #00FFFF;
+}*/
+
+#nav ul li.sub ul {
+	list-style-type: none;
+	display: none;
+	/*margin: 0;*/
+	padding: 10px 0px 0px 0px;
+	width: 150px;
+
+	position: absolute;
+/*	right: 69px;
+	top: 35px;*/
+}
+
+/*
+#nav ul li.sub:hover ul {
+	display: block;
+}
+*/
+
+#nav ul li.sub ul li {
+	display: block;
+	text-align: center;
+	background-color: #DB944D;
+	border-radius: 5px;
+}
+
+/*#nav ul li.sub ul li:hover {
+	opacity: 0.9;
+}*/
+
+
+
+	
+
+#section1 {
+	/*background-color: #D17519;*/
+	width: 450px;
+	height: 300px;
+
+	border-radius: 35px;
+	padding:20px 70px 20px 70px;
+
+	background: -webkit-linear-gradient(left, #DB944D , ghostwhite); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #DB944D, ghostwhite); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #DB944D, ghostwhite); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #DB944D , ghostwhite); /* Standard syntax */
+
+	-webkit-transition: width 2s; /* Safari */
+	transition: width 2s;
+}
+
+#section1:hover {
+	width: 700px;
+}
+
+#section2 {
+	background-color: ghostwhite;
+	padding:10px 20px 10px 20px;
+
+}
+
+#section3 {
+	/*background-color: #D17519;*/
+	height: 300px;
+	border-radius: 35px;
+	padding:20px 70px 20px 70px;
+
+	background: -webkit-linear-gradient(right, #DB944D , ghostwhite); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(left, #DB944D, ghostwhite); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(left, #DB944D, ghostwhite); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to left, #DB944D , ghostwhite); /* Standard syntax */
+}
+
+#seperator {
+	width: 100%;
+	height: 2px;
+	background-color: #CC6600;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+
+}
+
+#seperator2 {
+	height: 1px;
+	background-color: ghostwhite;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+}
+
+#services {
+	vertical-align: top;
+	padding: 20px;
+	height: 500px;
+}
+
+
+#footer {
+	background-image: url("./images/6.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 300px;
+
+	/*background-color: #525252;*/
+	opacity: 0.7;
+	margin-top: 10px;
+	color: ghostwhite;
+	text-align: right;
+	font-size: 12px;
+	font-family:"Lucida Console", Monaco, monospace;
+
+	border-top-style: solid;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-width: thin;
+	border-color: ghostwhite;
+}
+
+#columns {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+	-moz-column-gap: 20px; /* Firefox */
+	column-gap: 20px;
+	-webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+	-moz-column-rule-style: solid; /* Firefox */
+	column-rule-style: solid;
+	-webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+	-moz-column-rule-width: 1px; /* Firefox */
+	column-rule-width: 1px;
+}
+
+
